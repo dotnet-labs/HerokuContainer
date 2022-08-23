@@ -204,5 +204,7 @@ namespace Colors.API.Controllers
         /// </summary>
         /// <example>false</example>
         public bool IsComplete { get; set; }
+
+        public decimal Amount { get; set; }
     }
 }

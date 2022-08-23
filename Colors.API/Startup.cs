@@ -35,7 +35,7 @@ namespace Colors.API
                     {
                         Name = @"GitHub Repository",
                         Email = string.Empty,
-                        Url = new Uri("https://github.com/changhuixu/dotnetlabs/tree/master/ASPNetCoreLabs/HerokuContainer")
+                        Url = new Uri("https://github.com/dotnet-labs/HerokuContainer")
                     }
                 });
                 c.SwaggerDoc("v2", new OpenApiInfo { Version = "v1.2", Title = "File Upload API" });
