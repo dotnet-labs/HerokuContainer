@@ -2,6 +2,10 @@
 
 <a href='https://ko-fi.com/changhuixu' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
+## Updates
+
+The solution is updated to ASP.NET 8
+
 ## [Medium Article 1: Deploy a Dockerized ASP.NET Core Web API app to Heroku](https://codeburst.io/deploy-a-containerized-asp-net-core-app-to-heroku-using-github-actions-9e54c72db943)
 
 In this blog post, we will create a containerized ASP.NET Core 3.1 Web API project, and set up a CI/CD pipeline using GitHub Actions. In the GitHub workflow, we will build and test the Web API project, and deploy the final docker image to Heroku.

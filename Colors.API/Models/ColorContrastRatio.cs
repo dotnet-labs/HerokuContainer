@@ -1,19 +1,8 @@
-﻿using System.Drawing;
-using Colors.API.Services;
+﻿namespace Colors.API.Models;
 
-namespace Colors.API.Models
+public class ColorContrastRatio(Color color1, Color color2)
 {
-    public class ColorContrastRatio
-    {
-        public Color Color1 { get; }
-        public Color Color2 { get; }
-        public double Ratio { get; }
-
-        public ColorContrastRatio(Color color1, Color color2)
-        {
-            Color1 = color1;
-            Color2 = color2;
-            Ratio = ColorServices.GetContrastRatio(color1, color2);
-        }
-    }
+    public Color Color1 { get; } = color1;
+    public Color Color2 { get; } = color2;
+    public double Ratio { get; } = ColorServices.GetContrastRatio(color1, color2);
 }
